@@ -12,12 +12,12 @@ const theme = createTheme({
     },
   },
   palette: {
-    primary: { main: "#006273" },
+    primary: { main: "#F48943" },
     secondary: { main: "#fff" },
     error: { main: "#801a00" },
     text: {
-      primary: "#006273",
-      secondary: "#006273", // HACK FOR material-table hardcoded toolbar!,
+      primary: "#F48943",
+      secondary: "#F48943", // HACK FOR material-table hardcoded toolbar!,
       second: "#fff",
       error: "#801a00",
     },
@@ -71,17 +71,17 @@ const theme = createTheme({
       backgroundColor: "#dbeef0",
     },
     header: {
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#F48943",
+      backgroundColor: "#F48943",
     },
     message: {
-      backgroundColor: "#b7d4d8",
+      backgroundColor: "#F48943",
     },
     title: {
       padding: 10,
       fontSize: 24,
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#F48943",
+      backgroundColor: "#F48943",
     },
     action: {
       padding: 5,
@@ -102,17 +102,17 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontWeight: 500,
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#F48943",
+      backgroundColor: "#F48943",
     },
     header: {
-      color: "#006273",
+      color: "#F48943",
     },
     headerAction: {
       padding: 5,
     },
     row: {
-      color: "#006273",
+      color: "#F48943",
       align: "center",
       "&:hover": {
         background: "rgba(0, 0, 0, 0.12) !important",
@@ -142,10 +142,10 @@ const theme = createTheme({
       align: "center",
     },
     footer: {
-      color: "#006273",
+      color: "#F48943",
     },
     pager: {
-      color: "#006273",
+      color: "#F48943",
     },
   },
   form: {
@@ -153,13 +153,13 @@ const theme = createTheme({
   },
   formTable: {
     table: {
-      color: "#006273",
+      color: "#F48943",
     },
     actions: {
-      color: "#006273",
+      color: "#F48943",
     },
     header: {
-      color: "#006273",
+      color: "#F48943",
       align: "center",
     },
   },
@@ -172,12 +172,12 @@ const theme = createTheme({
       padding: 0,
     },
     primaryButton: {
-      backgroundColor: "#006273",
+      backgroundColor: "#F48943",
       color: "#fff",
       fontWeight: "bold",
       "&:hover": {
-        backgroundColor: alpha("#006273", 0.5),
-        color: "#006273",
+        backgroundColor: alpha("#F48943", 0.5),
+        color: "#F48943",
       },
     },
     secondaryButton: {},
