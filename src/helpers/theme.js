@@ -12,7 +12,7 @@ const theme = createTheme({
     },
   },
   palette: {
-    primary: { main: "#000000" },
+    primary: { main: "#F48943" },
     secondary: { main: "#fff" },
     error: { main: "#801a00" },
     text: {
@@ -112,7 +112,7 @@ const theme = createTheme({
       padding: 5,
     },
     row: {
-      color: "#F48943",
+      color: "#000000",
       align: "center",
       "&:hover": {
         background: "rgba(0, 0, 0, 0.12) !important",
@@ -142,10 +142,10 @@ const theme = createTheme({
       align: "center",
     },
     footer: {
-      color: "#F48943",
+      color: "#000000",
     },
     pager: {
-      color: "#F48943",
+      color: "#000000",
     },
   },
   form: {
@@ -153,13 +153,13 @@ const theme = createTheme({
   },
   formTable: {
     table: {
-      color: "#F48943",
+      color: "#000000",
     },
     actions: {
-      color: "#F48943",
+      color: "#000000",
     },
     header: {
-      color: "#F48943",
+      color: "#000000",
       align: "center",
     },
   },
@@ -177,7 +177,7 @@ const theme = createTheme({
       fontWeight: "bold",
       "&:hover": {
         backgroundColor: alpha("#F48943", 0.5),
-        color: "#F48943",
+        color: "#000000",
       },
     },
     secondaryButton: {},
