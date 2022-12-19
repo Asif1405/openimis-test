@@ -68,20 +68,20 @@ const theme = createTheme({
   paper: {
     paper: {
       margin: 10,
-      backgroundColor: "#F48943",
+      backgroundColor: "#dbeef0",
     },
     header: {
-      color: "#000000",
-      backgroundColor: "#F48943",
+      color: "#006273",
+      backgroundColor: "#b7d4d8",
     },
     message: {
-      backgroundColor: "#F48943",
+      backgroundColor: "#b7d4d8",
     },
     title: {
       padding: 10,
       fontSize: 24,
-      color: "#000000",
-      backgroundColor: "#F48943",
+      color: "#006273",
+      backgroundColor: "#b7d4d8",
     },
     action: {
       padding: 5,
@@ -92,7 +92,7 @@ const theme = createTheme({
     },
     body: {
       marginTop: 10,
-      backgroundColor: "#F48943",
+      backgroundColor: "#dbeef0",
     },
     item: {
       padding: 10,
@@ -102,17 +102,17 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontWeight: 500,
-      color: "#000000",
-      backgroundColor: "#F48943",
+      color: "#006273",
+      backgroundColor: "#b7d4d8",
     },
     header: {
-      color: "#F48943",
+      color: "#006273",
     },
     headerAction: {
       padding: 5,
     },
     row: {
-      color: "#000000",
+      color: "#006273",
       align: "center",
       "&:hover": {
         background: "rgba(0, 0, 0, 0.12) !important",
@@ -142,10 +142,10 @@ const theme = createTheme({
       align: "center",
     },
     footer: {
-      color: "#000000",
+      color: "#006273",
     },
     pager: {
-      color: "#000000",
+      color: "#006273",
     },
   },
   form: {
@@ -153,13 +153,13 @@ const theme = createTheme({
   },
   formTable: {
     table: {
-      color: "#000000",
+      color: "#006273",
     },
     actions: {
-      color: "#000000",
+      color: "#006273",
     },
     header: {
-      color: "#000000",
+      color: "#006273",
       align: "center",
     },
   },
@@ -172,12 +172,12 @@ const theme = createTheme({
       padding: 0,
     },
     primaryButton: {
-      backgroundColor: "#F48943",
+      backgroundColor: "#006273",
       color: "#fff",
       fontWeight: "bold",
       "&:hover": {
-        backgroundColor: alpha("#F48943", 0.5),
-        color: "#000000",
+        backgroundColor: alpha("#006273", 0.5),
+        color: "#006273",
       },
     },
     secondaryButton: {},
