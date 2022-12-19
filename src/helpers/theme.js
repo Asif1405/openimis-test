@@ -80,8 +80,8 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontSize: 24,
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#000000",
+      backgroundColor: "#F48943",
     },
     action: {
       padding: 5,
