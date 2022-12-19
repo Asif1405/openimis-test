@@ -12,12 +12,12 @@ const theme = createTheme({
     },
   },
   palette: {
-    primary: { main: "#F48943" },
+    primary: { main: "#000000" },
     secondary: { main: "#fff" },
     error: { main: "#801a00" },
     text: {
-      primary: "#F48943",
-      secondary: "#F48943", // HACK FOR material-table hardcoded toolbar!,
+      primary: "#000000",
+      secondary: "#000000", // HACK FOR material-table hardcoded toolbar!,
       second: "#fff",
       error: "#801a00",
     },
@@ -68,10 +68,10 @@ const theme = createTheme({
   paper: {
     paper: {
       margin: 10,
-      backgroundColor: "#dbeef0",
+      backgroundColor: "#F48943",
     },
     header: {
-      color: "#F48943",
+      color: "#000000",
       backgroundColor: "#F48943",
     },
     message: {
@@ -80,7 +80,7 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontSize: 24,
-      color: "#F48943",
+      color: "#000000",
       backgroundColor: "#F48943",
     },
     action: {
@@ -92,7 +92,7 @@ const theme = createTheme({
     },
     body: {
       marginTop: 10,
-      backgroundColor: "#dbeef0",
+      backgroundColor: "#F48943",
     },
     item: {
       padding: 10,
@@ -102,7 +102,7 @@ const theme = createTheme({
     title: {
       padding: 10,
       fontWeight: 500,
-      color: "#F48943",
+      color: "#000000",
       backgroundColor: "#F48943",
     },
     header: {
