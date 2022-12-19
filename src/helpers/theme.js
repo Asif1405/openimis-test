@@ -34,7 +34,7 @@ const theme = createTheme({
       fontWeight: 300,
     },
     label: {
-      color: "grey",
+      color: "black",
     },
   },
   jrnlDrawer: {
@@ -71,8 +71,8 @@ const theme = createTheme({
       backgroundColor: "#dbeef0",
     },
     header: {
-      color: "#006273",
-      backgroundColor: "#b7d4d8",
+      color: "#000000",
+      backgroundColor: "#F48943",
     },
     message: {
       backgroundColor: "#b7d4d8",
