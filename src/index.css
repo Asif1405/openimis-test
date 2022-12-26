@@ -16,6 +16,6 @@ body {
 .bootstrap {
   flex-grow: 1;
 }
-.MuiGrid-item {
-  background: red;
+.MuiToolbar-regular .jss29 {
+  display: none;
 }
