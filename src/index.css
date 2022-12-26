@@ -16,3 +16,6 @@ body {
 .bootstrap {
   flex-grow: 1;
 }
+.MuiGrid-item {
+  background: red;
+}
