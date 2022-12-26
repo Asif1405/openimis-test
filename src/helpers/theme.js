@@ -25,7 +25,7 @@ const theme = createTheme({
   },
   typography: {
     useNextVariants: true,
-    fontFamily: ["interfont", "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
+    fontFamily: [interfont, "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
     fontSize: 14,
     fontWeightRegular: 300,
     fontWeightMedium: 400,
