@@ -50,7 +50,7 @@ const theme = createTheme({
     iconSize: 24,
   },
   menu: {
-    variant: "persistent",
+    variant: "appBar",
     drawer: {
       width: 300,
       fontSize: 16,
