@@ -50,17 +50,14 @@ const theme = createTheme({
     iconSize: 24,
   },
   menu: {
-    position: "relative",
-    marginLeft: "auto",
-    width: 200,
-    "& .MuiBackdrop-root": {
-      display: "none"
+    variant: "AppBar",
+    drawer: {
+      width: 300,
+      fontSize: 16,
     },
-    "& .MuiDrawer-paper": {
-      width: 200,
-      position: "absolute",
-      transition: "none !important"
-    }
+    appBar: {
+      fontSize: 16,
+    },
   },
   page: {
     padding: 16,
