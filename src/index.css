@@ -19,3 +19,32 @@ body {
 .MuiToolbar-regular .jss29 {
   display: none;
 }
+.MuiGrid-container {
+  background: linear-gradient(135deg,#f48943,#e42c2c);
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 0;
+}
+.MuiTypography-h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+.MuiSvgIcon-root {
+  fill: #f48943;
+}
+.MuiInputBase-root {
+  box-shadow: 0 0 0 2px #f48943;
+  border-radius: 4px;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #fff;
+  color: #1f272e;
+  }
+  
+  .MuiInputBase-input {
+  font-size: 13px;
+  color: #1f272e;
+  padding: 8px 8px 8px 44px;
+  }
