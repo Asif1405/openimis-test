@@ -72,7 +72,7 @@ const theme = createTheme({
     },
     header: {
       color: "#000000",
-      backgroundColor: "#F48943",
+      backgroundColor: "#FFFFFF",
     },
     message: {
       backgroundColor: "#b7d4d8",
