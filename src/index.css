@@ -16,8 +16,11 @@ body {
 .bootstrap {
   flex-grow: 1;
 }
-.MuiToolbar-regular .jss29 {
+.MuiToolbar-regular > div.jss29 {
   display: none;
+}
+.MuiToolbar-regular .jss10 {
+  display: block;
 }
 .MuiGrid-container {
   background: linear-gradient(135deg,#f48943,#e42c2c);
@@ -39,8 +42,8 @@ body {
   border-radius: 4px;
 }
 .MuiAppBar-colorPrimary {
-  background-color: #fff;
-  color: #1f272e;
+  background-color: #fff!important;
+  color: #1f272e!important;
   }
   
   .MuiInputBase-input {
