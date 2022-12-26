@@ -12,7 +12,7 @@ const theme = createTheme({
     },
   },
   palette: {
-    primary: { main: "#F48943" },
+    primary: { main: "#000000" },
     secondary: { main: "#fff" },
     error: { main: "#801a00" },
     text: {
