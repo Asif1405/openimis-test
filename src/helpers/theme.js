@@ -1,7 +1,6 @@
-import { createTheme } from "@material-ui/core";
+import { createTheme, AppBar } from "@material-ui/core";
 import { withStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import AppBar from '@material-ui/core/AppBar';
+import { Drawer } from '@material-ui/core/Drawer';
 import { alpha } from "@material-ui/core/styles/colorManipulator";
 import { interfont } from "@fontsource/inter";
 const theme = createTheme({
@@ -60,9 +59,9 @@ const theme = createTheme({
     },
   appBar: {
     position: 'absolute',
-    marginLeft: drawerWidth,
+    marginLeft: 300,
     [theme.breakpoints.up('md')]: {
-      width: `calc(100% - ${drawerWidth}px)`,
+      width: `calc(100% - ${300}px)`,
     },
   },
   navIconHide: {
