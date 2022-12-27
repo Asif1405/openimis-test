@@ -18,7 +18,7 @@ const theme = createTheme({
     text: {
       primary: "#000000",
       secondary: "#000000", // HACK FOR material-table hardcoded toolbar!,
-      second: "#fff",
+      second: "#333",
       error: "#801a00",
     },
     toggledButton: "#999999",
@@ -81,7 +81,6 @@ const theme = createTheme({
       padding: 10,
       fontSize: 24,
       color: "#000000",
-      backgroundColor: "#F48943",
     },
     action: {
       padding: 5,
@@ -91,8 +90,8 @@ const theme = createTheme({
       margin: 0,
     },
     body: {
-      marginTop: 10,
-      backgroundColor: "#dbeef0",
+      marginTop: 20,
+      backgroundColor: "#FFFFFF",
     },
     item: {
       padding: 10,
