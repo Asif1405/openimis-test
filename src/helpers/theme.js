@@ -1,5 +1,4 @@
 import { createTheme } from "@material-ui/core";
-import { AppBar,Drawer,withStyles } from '@mui/material';
 import { alpha } from "@material-ui/core/styles/colorManipulator";
 import { interfont } from "@fontsource/inter";
 const theme = createTheme({
@@ -56,7 +55,7 @@ const theme = createTheme({
       width: 300,
       fontSize: 16,
     },
-    appBar: {
+  appBar: {
       fontSize: 16,
     },
   },
