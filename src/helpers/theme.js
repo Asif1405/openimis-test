@@ -71,7 +71,7 @@ const theme = createTheme({
   },
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
-    width: drawerWidth,
+    width: 300,
     [theme.breakpoints.up('md')]: {
       position: 'relative',
     },
