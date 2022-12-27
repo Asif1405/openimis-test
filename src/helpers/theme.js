@@ -1,7 +1,5 @@
 import { createTheme } from "@material-ui/core";
-import { withStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import { AppBar } from '@mui/material';
+import { AppBar,Drawer,withStyles } from '@mui/material';
 import { alpha } from "@material-ui/core/styles/colorManipulator";
 import { interfont } from "@fontsource/inter";
 const theme = createTheme({
