@@ -1,6 +1,6 @@
 import { createTheme } from "@material-ui/core";
 import { alpha } from "@material-ui/core/styles/colorManipulator";
-import { interfont } from "@fontsource/inter";
+import "@fontsource/inter";
 const theme = createTheme({
   overrides: {
     MuiTableRow: {
@@ -25,7 +25,7 @@ const theme = createTheme({
   },
   typography: {
     useNextVariants: true,
-    fontFamily: [interfont, "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
+    fontFamily: ["Inter", "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
     fontSize: 14,
     fontWeightRegular: 300,
     fontWeightMedium: 400,
