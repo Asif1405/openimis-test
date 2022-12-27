@@ -1,6 +1,7 @@
-import { createTheme, AppBar } from "@material-ui/core";
+import { createTheme } from "@material-ui/core";
 import { withStyles } from '@material-ui/core/styles';
-import { Drawer } from '@material-ui/core/Drawer';
+import Drawer from '@material-ui/core/Drawer';
+import { AppBar } from '@mui/material';
 import { alpha } from "@material-ui/core/styles/colorManipulator";
 import { interfont } from "@fontsource/inter";
 const theme = createTheme({
@@ -57,25 +58,9 @@ const theme = createTheme({
       width: 300,
       fontSize: 16,
     },
-  appBar: {
-    position: 'absolute',
-    marginLeft: 300,
-    [theme.breakpoints.up('md')]: {
-      width: `calc(100% - ${300}px)`,
+    appBar: {
+      fontSize: 16,
     },
-  },
-  navIconHide: {
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
-    },
-  },
-  toolbar: theme.mixins.toolbar,
-  drawerPaper: {
-    width: 300,
-    [theme.breakpoints.up('md')]: {
-      position: 'relative',
-    },
-  },
   },
   page: {
     padding: 16,
