@@ -26,8 +26,25 @@ body {
   margin-left: 0;
 }
 
+.MuiToolbar-regular .jss17 {
+  padding: 0;
+}
+
+.MuiToolbar-regular .jss46 {
+  width: auto;
+  padding: 0 12px;
+}
+
 .MuiGrid-container {
   background: linear-gradient(135deg, #f48943, #e42c2c);
+}
+
+.MuiPaper-root .MuiGrid-container {
+  background: #FFF;
+}
+
+.MuiGrid-container .MuiBox-root {
+  margin-top: 0;
 }
 
 .MuiGrid-container.MuiGrid-spacing-xs-2 {
@@ -58,7 +75,7 @@ body {
   box-shadow: 0px 1px 2px rgba(25,39,52,0.05),0px 0px 4px rgba(25,39,52,0.1);
 }
 
-.MuiInputBase-root .MuiInputBase-input {
+header .MuiInputBase-input {
   box-shadow: 0 0 0 2px #f48943;
   border-radius: 4px;
   font-size: 13px;
@@ -76,9 +93,70 @@ header .MuiToolbar-gutters {
   margin: 0;
 }
 
-.MuiButton-label .jss46 {
-  width: auto;
-  padding: 0 12px;
+.MuiDrawer-paperAnchorDockedLeft {
+  height: calc(100% - 70px);
+  top: 70px;
+}
+
+.MuiAccordion-root {
+  border: none;
+}
+
+.MuiAccordion-root .MuiAccordionSummary-root {
+  min-height: auto;
+  padding: 2px 15px;
+  margin-bottom: 0;
+}
+
+.MuiAccordionSummary-root .MuiIconButton-root {
+  width: 20px;
+  height: 20px;
+  padding: 7px 7px 7px 0;
+}
+
+.MuiAccordionSummary-root .MuiIconButton-edgeEnd {
+  padding: 7px;
+}
+
+.MuiAccordionSummary-root .MuiAccordionSummary-content {
+  align-items: center;
+  margin: 0;
+}
+
+.MuiAccordionSummary-root .MuiAccordionSummary-content.Mui-expanded {
+  background: linear-gradient(135deg, #f48943, #e42c2c);
+  min-height: auto;
+}
+
+.MuiAccordionSummary-content .MuiTypography-body1 {
+  font-size: 14px;
+  color: #1f272e;
+  margin-top: 0;
+}
+
+.MuiAccordionSummary-content.Mui-expanded .MuiTypography-body1 {
+  color: #FFF;
+}
+
+.MuiAccordionSummary-content.Mui-expanded .MuiSvgIcon-root {
+  fill: #FFF;
+}
+
+.MuiAccordionSummary-content .MuiAccordionDetails-root {
+  padding: 0;
+}
+
+.MuiAccordionDetails-root .MuiListItemIcon-root {
+  min-width: 31px;
+}
+
+.jss54 .jss53 {
+  min-height: 70px;
+}
+
+.jss54 + jss11 {
+  min-height: 70px;
+  margin-top: 0;
 }
 
 @media (min-width: 600px) {
