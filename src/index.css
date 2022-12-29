@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   color: #1f272e;
   height: 100%;
-  background: #f2f2f2;
+  background-color: #f5f6fa !important;
   line-height: 1.5;
 }
 
@@ -120,14 +120,14 @@ header .MuiToolbar-gutters {
 }
 
 .MuiAccordion-root .MuiAccordionSummary-root,
-.MuiAccordion-root .MuiAccordionSummary-root.jss115.jss117 {
+.MuiAccordion-root .MuiAccordionSummary-root.Mui-expanded {
   background: none;
   min-height: auto;
   padding: 11px 15px;
   margin-bottom: 0;
 }
 
-.MuiAccordion-root .MuiAccordionSummary-root.jss115.jss117 {
+.MuiAccordion-root .MuiAccordionSummary-root.Mui-expanded {
   background: linear-gradient(135deg, #f48943, #e42c2c);
 }
 
@@ -159,7 +159,7 @@ header .MuiToolbar-gutters {
 }
 
 .MuiAccordionSummary-content.Mui-expanded .MuiSvgIcon-root,
-.MuiAccordionSummary-root .MuiIconButton-edgeEnd .MuiSvgIcon-root {
+.MuiAccordionSummary-root .MuiIconButton-edgeEnd.Mui-expanded .MuiSvgIcon-root {
   fill: #FFF;
 }
 
