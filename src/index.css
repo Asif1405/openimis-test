@@ -65,6 +65,8 @@ body {
 
 .MuiIconButton-root .MuiSvgIcon-root {
   fill: #f48943;
+  width: 20px;
+  height: 20px;
 }
 
 .App .MuiAppBar-colorPrimary {
@@ -75,12 +77,19 @@ body {
   box-shadow: 0px 1px 2px rgba(25,39,52,0.05),0px 0px 4px rgba(25,39,52,0.1);
 }
 
+.App .jss11 {
+  min-height: 70px;
+  margin-top: 0;
+}
+
 header .MuiInputBase-input {
   box-shadow: 0 0 0 2px #f48943;
   border-radius: 4px;
+  height: auto;
   font-size: 13px;
+  line-height: 1.385;
   color: #1f272e;
-  padding: 8px 8px 8px 46px;
+  padding: 9px 8px 9px 44px;
 }
 
 header .MuiToolbar-gutters {
@@ -93,19 +102,33 @@ header .MuiToolbar-gutters {
   margin: 0;
 }
 
-.MuiDrawer-paperAnchorDockedLeft {
-  height: calc(100% - 70px);
-  top: 70px;
+.MuiPaper-root .MuiIconButton-root {
+  padding: 9px;
 }
 
-.MuiAccordion-root {
+.MuiDrawer-root .MuiDrawer-paperAnchorDockedLeft {
+  height: calc(100% - 130px);
+  top: 130px;
+}
+
+.MuiDrawer-paperAnchorDockedLeft .MuiDivider-root {
+  display: none;
+}
+
+.MuiDrawer-paperAnchorLeft .MuiAccordion-root {
   border: none;
 }
 
-.MuiAccordion-root .MuiAccordionSummary-root {
+.MuiAccordion-root .MuiAccordionSummary-root,
+.MuiAccordion-root .MuiAccordionSummary-root.jss115.jss117 {
+  background: none;
   min-height: auto;
-  padding: 2px 15px;
+  padding: 11px 15px;
   margin-bottom: 0;
+}
+
+.MuiAccordion-root .MuiAccordionSummary-root.jss115.jss117 {
+  background: linear-gradient(135deg, #f48943, #e42c2c);
 }
 
 .MuiAccordionSummary-root .MuiIconButton-root {
@@ -118,32 +141,40 @@ header .MuiToolbar-gutters {
   padding: 7px;
 }
 
-.MuiAccordionSummary-root .MuiAccordionSummary-content {
-  align-items: center;
-  margin: 0;
-}
-
+.MuiAccordionSummary-root .MuiAccordionSummary-content,
 .MuiAccordionSummary-root .MuiAccordionSummary-content.Mui-expanded {
-  background: linear-gradient(135deg, #f48943, #e42c2c);
+  align-items: center;
   min-height: auto;
+  margin: 0;
 }
 
 .MuiAccordionSummary-content .MuiTypography-body1 {
   font-size: 14px;
   color: #1f272e;
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .MuiAccordionSummary-content.Mui-expanded .MuiTypography-body1 {
   color: #FFF;
 }
 
-.MuiAccordionSummary-content.Mui-expanded .MuiSvgIcon-root {
+.MuiAccordionSummary-content.Mui-expanded .MuiSvgIcon-root,
+.MuiAccordionSummary-root .MuiIconButton-edgeEnd .MuiSvgIcon-root {
   fill: #FFF;
 }
 
-.MuiAccordionSummary-content .MuiAccordionDetails-root {
+.MuiCollapse-root .MuiAccordionDetails-root {
   padding: 0;
+}
+
+.MuiCollapse-root .MuiSvgIcon-root  {
+  width: 20px;
+  height: 20px;
+}
+
+.MuiCollapse-root .MuiTypography-body1 {
+  font-size: 14px;
+  color: #1f272e;
 }
 
 .MuiAccordionDetails-root .MuiListItemIcon-root {
