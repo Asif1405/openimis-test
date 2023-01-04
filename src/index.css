@@ -108,13 +108,14 @@ header .MuiToolbar-gutters {
   margin-left: 0;
 }
 
-nav.jss12 .MuiDrawer-root .MuiDrawer-paperAnchorDockedLeft {
-  height: calc(100% - 130px);
-  top: 130px;
-}
+
 .MuiDrawer-root .MuiDrawer-paperAnchorDockedLeft {
   height: calc(100% - 70px);
   top: 70px;
+}
+nav.jss12 .MuiDrawer-root .MuiDrawer-paperAnchorDockedLeft {
+  height: calc(100% - 130px);
+  top: 130px;
 }
 .MuiDrawer-paperAnchorDockedLeft .MuiDivider-root {
   display: none;
