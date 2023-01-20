@@ -1,6 +1,6 @@
 import { createTheme } from "@material-ui/core";
 import { alpha } from "@material-ui/core/styles/colorManipulator";
-
+import "@fontsource/inter";
 const theme = createTheme({
   overrides: {
     MuiTableRow: {
@@ -18,14 +18,14 @@ const theme = createTheme({
     text: {
       primary: "#000000",
       secondary: "#000000", // HACK FOR material-table hardcoded toolbar!,
-      second: "#fff",
+      second: "#333",
       error: "#801a00",
     },
     toggledButton: "#999999",
   },
   typography: {
     useNextVariants: true,
-    fontFamily: ["Rubik", "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
+    fontFamily: ["Inter", "Roboto", '"Helvetica Neue"', "sans-serif"].join(","),
     fontSize: 14,
     fontWeightRegular: 300,
     fontWeightMedium: 400,
@@ -55,7 +55,7 @@ const theme = createTheme({
       width: 300,
       fontSize: 16,
     },
-    appBar: {
+  appBar: {
       fontSize: 16,
     },
   },
@@ -72,7 +72,7 @@ const theme = createTheme({
     },
     header: {
       color: "#000000",
-      backgroundColor: "#F48943",
+      backgroundColor: "#FFFFFF",
     },
     message: {
       backgroundColor: "#b7d4d8",
@@ -81,7 +81,6 @@ const theme = createTheme({
       padding: 10,
       fontSize: 24,
       color: "#000000",
-      backgroundColor: "#F48943",
     },
     action: {
       padding: 5,
@@ -91,8 +90,8 @@ const theme = createTheme({
       margin: 0,
     },
     body: {
-      marginTop: 10,
-      backgroundColor: "#dbeef0",
+      marginTop: 20,
+      backgroundColor: "#FFFFFF",
     },
     item: {
       padding: 10,
